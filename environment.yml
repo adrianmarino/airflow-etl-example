@@ -1,0 +1,17 @@
+name: project
+channels:
+    - defaults
+    - pytorch
+    - conda-forge
+dependencies:
+    - seaborn
+    - matplotlib
+    - pandas
+    - numpy
+    - torchmetrics
+    - pytorch=1.11.0
+    - jupyterlab
+    - ipywidgets
+    - pytest
+    - pip:
+        - pytorch-common==0.0.19

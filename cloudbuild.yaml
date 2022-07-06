@@ -1,0 +1,7 @@
+steps:
+- name: gcr.io/cloud-builders/gsutil
+  args:
+    - 'cp'
+    - '-r'
+    - '*'
+    - 'gs://us-east4-develop-f7da467c-bucket/dags'

@@ -1,0 +1,7 @@
+seaborn
+matplotlib
+pandas
+numpy
+torchmetrics
+pytorch-common==0.0.19
+scikit-learn
